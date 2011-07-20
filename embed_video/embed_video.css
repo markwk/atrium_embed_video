@@ -1,0 +1,9 @@
+#features-menu li a.icon-videos span.icon {
+  background:url(images/icon.png) no-repeat;
+}
+
+.feature .feature-embed_video {
+  background:transparent url(images/video.png) no-repeat;
+}
+
+span.spaces-feature.feature-embed_video { background:url(images/video.png) no-repeat; height:20px; width:20px; }
