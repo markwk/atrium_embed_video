@@ -66,11 +66,9 @@ function embed_video_content_default_fields() {
         'description' => 0,
       ),
       'providers' => array(
-        'ted' => 'ted',
+        'vimeo' => 'vimeo',
         'youtube' => 'youtube',
-        'ku6' => 0,
-        'tudou' => 0,
-        'youku' => 0,
+        'ted' => 0,
       ),
       'default_value' => array(
         '0' => array(
