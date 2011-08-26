@@ -58,5 +58,14 @@ function embed_video_user_default_permissions() {
     ),
   );
 
+  // Exported permission: view field_embed_video
+  $permissions['view field_embed_video'] = array(
+    'name' => 'view field_embed_video',
+    'roles' => array(
+      '0' => 'anonymous user',
+      '1' => 'authenticated user',
+    ),
+  );
+
   return $permissions;
 }

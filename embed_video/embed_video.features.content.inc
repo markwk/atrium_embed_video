@@ -11,19 +11,20 @@ function embed_video_content_default_fields() {
     'field_name' => 'field_embed_video',
     'type_name' => 'embed_video',
     'display_settings' => array(
+      'weight' => '-4',
+      'parent' => '',
       'label' => array(
-        'format' => 'above',
-        'exclude' => 0,
-      ),
-      '5' => array(
-        'format' => 'default',
-        'exclude' => 0,
+        'format' => 'hidden',
       ),
       'teaser' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
       'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '5' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
