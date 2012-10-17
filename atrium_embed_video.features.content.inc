@@ -3,13 +3,13 @@
 /**
  * Implementation of hook_content_default_fields().
  */
-function embed_video_content_default_fields() {
+function atrium_embed_video_content_default_fields() {
   $fields = array();
 
-  // Exported field: field_embed_video
-  $fields['embed_video-field_embed_video'] = array(
-    'field_name' => 'field_embed_video',
-    'type_name' => 'embed_video',
+  // Exported field: field_atrium_embed_video
+  $fields['atrium_embed_video-field_atrium_embed_video'] = array(
+    'field_name' => 'field_atrium_embed_video',
+    'type_name' => 'atrium_embed_video',
     'display_settings' => array(
       'weight' => '-4',
       'parent' => '',

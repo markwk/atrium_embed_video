@@ -3,83 +3,83 @@
 /**
  * Implementation of hook_strongarm().
  */
-function embed_video_strongarm() {
+function atrium_embed_video_strongarm() {
   $export = array();
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_embed_video';
+  $strongarm->name = 'comment_anonymous_atrium_embed_video';
   $strongarm->value = 0;
-  $export['comment_anonymous_embed_video'] = $strongarm;
+  $export['comment_anonymous_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_controls_embed_video';
+  $strongarm->name = 'comment_controls_atrium_embed_video';
   $strongarm->value = '2';
-  $export['comment_controls_embed_video'] = $strongarm;
+  $export['comment_controls_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_embed_video';
+  $strongarm->name = 'comment_default_mode_atrium_embed_video';
   $strongarm->value = '4';
-  $export['comment_default_mode_embed_video'] = $strongarm;
+  $export['comment_default_mode_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_order_embed_video';
+  $strongarm->name = 'comment_default_order_atrium_embed_video';
   $strongarm->value = '2';
-  $export['comment_default_order_embed_video'] = $strongarm;
+  $export['comment_default_order_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_per_page_embed_video';
+  $strongarm->name = 'comment_default_per_page_atrium_embed_video';
   $strongarm->value = '50';
-  $export['comment_default_per_page_embed_video'] = $strongarm;
+  $export['comment_default_per_page_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_embed_video';
+  $strongarm->name = 'comment_atrium_embed_video';
   $strongarm->value = '2';
-  $export['comment_embed_video'] = $strongarm;
+  $export['comment_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_form_location_embed_video';
+  $strongarm->name = 'comment_form_location_atrium_embed_video';
   $strongarm->value = '0';
-  $export['comment_form_location_embed_video'] = $strongarm;
+  $export['comment_form_location_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_preview_embed_video';
+  $strongarm->name = 'comment_preview_atrium_embed_video';
   $strongarm->value = '0';
-  $export['comment_preview_embed_video'] = $strongarm;
+  $export['comment_preview_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_subject_field_embed_video';
+  $strongarm->name = 'comment_subject_field_atrium_embed_video';
   $strongarm->value = '1';
-  $export['comment_subject_field_embed_video'] = $strongarm;
+  $export['comment_subject_field_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_upload_embed_video';
+  $strongarm->name = 'comment_upload_atrium_embed_video';
   $strongarm->value = '0';
-  $export['comment_upload_embed_video'] = $strongarm;
+  $export['comment_upload_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'content_extra_weights_embed_video';
+  $strongarm->name = 'content_extra_weights_atrium_embed_video';
   $strongarm->value = array(
     'title' => '-5',
     'body_field' => '-2',
@@ -91,29 +91,29 @@ function embed_video_strongarm() {
     'book' => '0',
     'og_nodeapi' => '-1',
   );
-  $export['content_extra_weights_embed_video'] = $strongarm;
+  $export['content_extra_weights_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'enable_revisions_page_embed_video';
+  $strongarm->name = 'enable_revisions_page_atrium_embed_video';
   $strongarm->value = 0;
-  $export['enable_revisions_page_embed_video'] = $strongarm;
+  $export['enable_revisions_page_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'node_options_embed_video';
+  $strongarm->name = 'node_options_atrium_embed_video';
   $strongarm->value = array(
     0 => 'status',
     1 => 'promote',
   );
-  $export['node_options_embed_video'] = $strongarm;
+  $export['node_options_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'nodeformscols_field_placements_embed_video_default';
+  $strongarm->name = 'nodeformscols_field_placements_atrium_embed_video_default';
   $strongarm->value = array(
     'title' => array(
       'region' => 'main',
@@ -191,7 +191,7 @@ function embed_video_strongarm() {
       'collapsed' => 1,
       'hidden' => 0,
     ),
-    'field_embed_video' => array(
+    'field_atrium_embed_video' => array(
       'region' => 'main',
       'weight' => '1',
       'has_required' => TRUE,
@@ -228,60 +228,60 @@ function embed_video_strongarm() {
       'hidden' => 0,
     ),
   );
-  $export['nodeformscols_field_placements_embed_video_default'] = $strongarm;
+  $export['nodeformscols_field_placements_atrium_embed_video_default'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'notifications_content_type_embed_video';
+  $strongarm->name = 'notifications_content_type_atrium_embed_video';
   $strongarm->value = array(
     0 => 'thread',
     1 => 'nodetype',
     2 => 'author',
   );
-  $export['notifications_content_type_embed_video'] = $strongarm;
+  $export['notifications_content_type_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'notifications_team_type_embed_video';
+  $strongarm->name = 'notifications_team_type_atrium_embed_video';
   $strongarm->value = array();
-  $export['notifications_team_type_embed_video'] = $strongarm;
+  $export['notifications_team_type_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'og_content_type_usage_embed_video';
+  $strongarm->name = 'og_content_type_usage_atrium_embed_video';
   $strongarm->value = 'group_post_standard';
-  $export['og_content_type_usage_embed_video'] = $strongarm;
+  $export['og_content_type_usage_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'og_max_groups_embed_video';
+  $strongarm->name = 'og_max_groups_atrium_embed_video';
   $strongarm->value = '';
-  $export['og_max_groups_embed_video'] = $strongarm;
+  $export['og_max_groups_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'show_diff_inline_embed_video';
+  $strongarm->name = 'show_diff_inline_atrium_embed_video';
   $strongarm->value = 0;
-  $export['show_diff_inline_embed_video'] = $strongarm;
+  $export['show_diff_inline_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'show_preview_changes_embed_video';
+  $strongarm->name = 'show_preview_changes_atrium_embed_video';
   $strongarm->value = 0;
-  $export['show_preview_changes_embed_video'] = $strongarm;
+  $export['show_preview_changes_atrium_embed_video'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'upload_embed_video';
+  $strongarm->name = 'upload_atrium_embed_video';
   $strongarm->value = '0';
-  $export['upload_embed_video'] = $strongarm;
+  $export['upload_atrium_embed_video'] = $strongarm;
 
   return $export;
 }

@@ -3,7 +3,7 @@
 /**
  * Implementation of hook_menu_default_menu_links().
  */
-function embed_video_menu_default_menu_links() {
+function atrium_embed_video_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: features:videos

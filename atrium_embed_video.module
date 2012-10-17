@@ -1,28 +1,28 @@
 <?php
 
-include_once('embed_video.features.inc');
+include_once('atrium_embed_video.features.inc');
 
 /**
 * Implementation of hook_init().
 */
-function embed_video_init() {
-  drupal_add_css(drupal_get_path('module', 'embed_video') .'/embed_video.css');
+function atrium_embed_video_init() {
+  drupal_add_css(drupal_get_path('module', 'atrium_embed_video') .'/atrium_embed_video.css');
 }
 
 /**
 * Implementation of hook_help().
 */
-function embed_video_help($path) {
+function atrium_embed_video_help($path) {
   // Central help page content.
-  if ($path == 'admin/help#embed_video') {
-    $help = '<h3>'. t('Embedded Video (China)') .'</h3>';
+  if ($path == 'admin/help#atrium_embed_video') {
+    $help = '<h3>'. t('Embedded Video.'</h3>';
     $help .= '<p>'. t("The Embedded Video section lets you add video from around the web.") .'</p>';
     $help .= '<p>'. t("To add videos, copy the click from a site like YouTube or Vimeo, navigate to the video section and click the __Add video__ button.  Then click __Save__.") .'</p>';
     return $help;
   }
 
   // Contextual help content.
-  if (context_isset('context', 'embed_videos')) {
+  if (context_isset('context', 'atrium_embed_videos')) {
     if ($path == 'node/add/video') {
       $help = '';
       $help .= '<h3>'. t('Video') .'</h3>';

@@ -3,12 +3,12 @@
 /**
  * Implementation of hook_views_default_views().
  */
-function embed_video_views_default_views() {
+function atrium_embed_video_views_default_views() {
   $views = array();
 
-  // Exported view: embed_videos
+  // Exported view: atrium_embed_videos
   $view = new view;
-  $view->name = 'embed_videos';
+  $view->name = 'atrium_embed_videos';
   $view->description = '';
   $view->tag = '';
   $view->view_php = '';
@@ -69,7 +69,7 @@ function embed_video_views_default_views() {
     'type' => array(
       'operator' => 'in',
       'value' => array(
-        'embed_video' => 'embed_video',
+        'atrium_embed_video' => 'atrium_embed_video',
       ),
       'group' => '0',
       'exposed' => FALSE,
@@ -116,7 +116,7 @@ function embed_video_views_default_views() {
   ));
   $handler->override_option('access', array(
     'type' => 'spaces_feature',
-    'spaces_feature' => 'embed_video_china',
+    'spaces_feature' => 'atrium_embed_video',
     'perm' => 'access content',
   ));
   $handler->override_option('cache', array(
@@ -381,7 +381,7 @@ function embed_video_views_default_views() {
   $handler->override_option('row_options', array());
   $handler->override_option('block_description', '');
   $handler->override_option('block_caching', -1);
-  $translatables['embed_videos'] = array(
+  $translatables['atrium_embed_videos'] = array(
     t('Block'),
     t('Currently no comments! '),
     t('Defaults'),

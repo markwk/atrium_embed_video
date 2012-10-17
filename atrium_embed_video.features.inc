@@ -3,7 +3,7 @@
 /**
  * Implementation of hook_ctools_plugin_api().
  */
-function embed_video_ctools_plugin_api() {
+function atrium_embed_video_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "context" && $api == "context") {
     return array("version" => 3);
@@ -16,9 +16,9 @@ function embed_video_ctools_plugin_api() {
 /**
  * Implementation of hook_node_info().
  */
-function embed_video_node_info() {
+function atrium_embed_video_node_info() {
   $items = array(
-    'embed_video' => array(
+    'atrium_embed_video' => array(
       'name' => t('Video'),
       'module' => 'features',
       'description' => '',
@@ -36,7 +36,7 @@ function embed_video_node_info() {
 /**
  * Implementation of hook_views_api().
  */
-function embed_video_views_api() {
+function atrium_embed_video_views_api() {
   return array(
     'api' => '2',
   );
